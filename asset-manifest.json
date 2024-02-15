@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.6c9760d3.css",
+    "main.js": "/personal-portfolio/static/js/main.7ef722ef.js",
+    "static/media/realestate.jpg": "/personal-portfolio/static/media/realestate.7eec8cb57046051a1246.jpg",
+    "static/media/sales.png": "/personal-portfolio/static/media/sales.c17a8520c85128989f2c.png",
+    "static/media/php-logo.png": "/personal-portfolio/static/media/php-logo.943ac1d69b200be5b172.png",
+    "static/media/reactjs-logo.png": "/personal-portfolio/static/media/reactjs-logo.0c9bce91c1c2e614e6fe.png",
+    "static/media/nextjs-logo.png": "/personal-portfolio/static/media/nextjs-logo.fc95a213f8715e3b2e08.png",
+    "static/media/aws-logo.png": "/personal-portfolio/static/media/aws-logo.1f3737214b37326be2e1.png",
+    "static/media/navbar-logo-white.png": "/personal-portfolio/static/media/navbar-logo-white.b5b1e57348cfee042b01.png",
+    "static/media/javascript-logo.png": "/personal-portfolio/static/media/javascript-logo.49af7f28ec2699f6d7f5.png",
+    "static/media/laravel-logo.png": "/personal-portfolio/static/media/laravel-logo.8b2939ca7ad8851c40a2.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.6c9760d3.css.map": "/personal-portfolio/static/css/main.6c9760d3.css.map",
+    "main.7ef722ef.js.map": "/personal-portfolio/static/js/main.7ef722ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c9760d3.css",
+    "static/js/main.7ef722ef.js"
+  ]
+}
