@@ -14,14 +14,15 @@ const Home = () => {
           I'm a Full Stack Developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          My role on this job is to develop in house application such as POS and
-          ERP Systems. I'm the one who communicates to our clients(employee) to
-          conduct a Gap Analysis of their manual business process. Wherein I
-          will translate it to a web application to automates their manual
-          functioning process to web based process. The tech stack that I used
-          PHP (Laravel Framework) for the backend, ReactJS for the front end.
-          Also for the versioning control I'm using SVN, Jenkins, I have
-          experience using GitHub. And for the database I'm using MySQL and SQL
+          My role on this job is to develop in-house applications such as POS and
+          ERP Systems. I'm the one who communicates with our clients(employees) to
+          conduct a Gap Analysis of their manual business process. I
+          will translate it into a web application to automate their manual
+          functioning process into a web-based process. Also one of my responsibilities is to check/test
+          the system's functions and codes, including system testing, before we conduct a parallel test
+          to the users. For the tech stack, I used PHP (Laravel Framework) for the backend, and ReactJS for the front end.
+          Also for the versioning control, I'm using SVN and Jenkins, and I have
+          experience using GitHub. And for the database, I'm using MySQL and SQL
           Server(Microsoft)
         </p>
         <div>

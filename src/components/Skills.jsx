@@ -4,6 +4,10 @@ import NEXTJS from "../assets/nextjs-logo.png";
 import PHP from "../assets/php-logo.png";
 import LARAVEL from "../assets/laravel-logo.png";
 import JAVASCRIPT from "../assets/javascript-logo.png";
+import GITHUB from "../assets/github-logo.png";
+import JENKINS from "../assets/jenkins-logo.png";
+import HTML from "../assets/html-logo.png";
+import CSS from "../assets/css-logo.png";
 
 const Skills = () => {
   return (
@@ -48,6 +52,26 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-12 mx-auto" src={LARAVEL} alt="" />
             <p className="my-4">LARAVEL</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-12 mx-auto" src={GITHUB} alt="" />
+            <p className="my-4">GITHUB</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-9 mx-auto" src={JENKINS} alt="" />
+            <p className="my-4">JENKINS</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={HTML} alt="" />
+            <p className="my-4">HTML</p>
+          </div>
+
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-12 mx-auto" src={CSS} alt="" />
+            <p className="my-4">CSS</p>
           </div>
 
         </div>

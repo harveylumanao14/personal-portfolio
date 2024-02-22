@@ -10,14 +10,21 @@ import {
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-
 import { Link } from "react-scroll";
+
+import Resume from "../assets/CV HARVEY.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   const handleClick = () => {
     setNav(!nav);
   };
+
+  const downloadCV = () => {
+    alert("download CV");
+  };
+
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 border-b border-b-slate-700">
       <div className="cursor-pointer">
@@ -85,7 +92,11 @@ const Navbar = () => {
           </li>
           <li className="py-6 text-4xl">
             <Link
-              onClick={handleClick} to="skills" smooth={true} duration={500}>
+              onClick={handleClick}
+              to="skills"
+              smooth={true}
+              duration={500}
+            >
               Skills
             </Link>
           </li>
@@ -96,7 +107,11 @@ const Navbar = () => {
           </li>
           <li className="py-6 text-4xl">
             <Link
-              onClick={handleClick} to="contact" smooth={true} duration={500}>
+              onClick={handleClick}
+              to="contact"
+              smooth={true}
+              duration={500}
+            >
               Contact
             </Link>
           </li>
@@ -110,7 +125,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-800">
             <a
               className="flex justify-between items-center w-full text-gray-30"
-              href="/"
+              href="https://www.facebook.com/Harvey.Lumanao/"
             >
               Facebook <FaFacebook size={30} />
             </a>
@@ -118,7 +133,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/harvey-lumanao-64383b21a/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -126,7 +141,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/harveylumanao14"
             >
               Github <FaGithub size={30} />
             </a>
@@ -134,18 +149,23 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href={Resume}
+              download="CV Harvey.pdf"
+              target="_blank"
+              rel="noreferrer"
             >
-              Gmail <HiOutlineMail size={30} />
+              Resume <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
-            <a
+            <Link
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              to="contact"
+              smooth={true}
+              duration={500}
             >
               Contact <BsFillPersonLinesFill size={30} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

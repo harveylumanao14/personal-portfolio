@@ -17,13 +17,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              I originally applied for an IT Project Coordinator role in an IT
-              Solutions company but my previous employer said that the position
-              was already filled in, but he has other job opening in his other
-              company which is Pushkart.ph but that isn't in line with IT
-              anymore and ask me to try the position. After having several
-              second thoughts about it, I accepted it because I was desperate to
-              have a job that time. I left the job due to pandemic.
+            Experienced full-stack web developer with a proven track record of creating and implementing web applications from concept to delivery. Seeking a challenging role where I can utilize my skills in both front-end and back-end development, along with my proficiency in ReactJs, Laravel(PHP) and databases such as Mysql and SQL, to contribute to the growth and success of a dynamic development team.
             </p>
           </div>
         </div>
