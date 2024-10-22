@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.795fd918.css",
-    "main.js": "/personal-portfolio/static/js/main.c05e12bc.js",
+    "main.css": "/personal-portfolio/static/css/main.135b9bbb.css",
+    "main.js": "/personal-portfolio/static/js/main.f937763e.js",
     "static/media/ms.png": "/personal-portfolio/static/media/ms.0adf08a41236385401c5.png",
     "static/media/dpsms.png": "/personal-portfolio/static/media/dpsms.66c639dfe000347c5ea1.png",
     "static/media/iv.png": "/personal-portfolio/static/media/iv.2e711fb767e62aec1d0c.png",
+    "static/media/realestate.jpg": "/personal-portfolio/static/media/realestate.7eec8cb57046051a1246.jpg",
+    "static/media/sales.png": "/personal-portfolio/static/media/sales.c17a8520c85128989f2c.png",
     "static/media/jenkins-logo.png": "/personal-portfolio/static/media/jenkins-logo.bac6ddc1dc1e387ae9ac.png",
+    "static/media/dotnet-logo.png": "/personal-portfolio/static/media/dotnet-logo.cfcd2039eecb640093ea.png",
     "static/media/CV HARVEY.pdf": "/personal-portfolio/static/media/CV HARVEY.96decbeb2bed83f1f5bf.pdf",
     "static/media/html-logo.png": "/personal-portfolio/static/media/html-logo.a019d6df288735ff9821.png",
     "static/media/php-logo.png": "/personal-portfolio/static/media/php-logo.943ac1d69b200be5b172.png",
@@ -18,11 +21,11 @@
     "static/media/laravel-logo.png": "/personal-portfolio/static/media/laravel-logo.8b2939ca7ad8851c40a2.png",
     "static/media/github-logo.png": "/personal-portfolio/static/media/github-logo.4bc5001ef4a1d9f9f428.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.795fd918.css.map": "/personal-portfolio/static/css/main.795fd918.css.map",
-    "main.c05e12bc.js.map": "/personal-portfolio/static/js/main.c05e12bc.js.map"
+    "main.135b9bbb.css.map": "/personal-portfolio/static/css/main.135b9bbb.css.map",
+    "main.f937763e.js.map": "/personal-portfolio/static/js/main.f937763e.js.map"
   },
   "entrypoints": [
-    "static/css/main.795fd918.css",
-    "static/js/main.c05e12bc.js"
+    "static/css/main.135b9bbb.css",
+    "static/js/main.f937763e.js"
   ]
 }
